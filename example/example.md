@@ -1,3 +1,4 @@
+'''
 import 'package:flutter/material.dart';
 import 'package:donut_thumb_shape/donut_thumb_shape.dart';
 
@@ -17,10 +18,10 @@ class _ExampleState extends State<Example> {
           inactiveTrackColor: Colors.white,
           tickMarkShape: SliderTickMarkShape.noTickMark,
           thumbShape: DonutThumbShape(
-              insideCircleRadius: 4,
-              outsideCircleRadius: 9,
-              outsideCircleColor: Colors.pinkAccent,
-              insideCircleColor: Colors.lightBlueAccent)),
+              insideCircleRadius: 6,
+              outsideCircleRadius: 8,
+              outsideCircleColor: Colors.white,
+              insideCircleColor: Color.fromRGBO(102, 0, 78, 1))),
       child: Slider(
         onChanged: (v) { },
         value: 2,
@@ -30,3 +31,8 @@ class _ExampleState extends State<Example> {
     );
   }
 }
+'''
+
+Output
+
+![](assets/branco_roxo.png)

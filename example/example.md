@@ -1,4 +1,4 @@
-'''
+```
 import 'package:flutter/material.dart';
 import 'package:donut_thumb_shape/donut_thumb_shape.dart';
 
@@ -31,8 +31,8 @@ class _ExampleState extends State<Example> {
     );
   }
 }
-'''
+```
 
 Output
 
-![](assets/branco_roxo.png)
+![](https://github.com/paulo9mv/donut_thumb_shape/blob/master/assets/branco_roxo.png?raw=true)

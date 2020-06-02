@@ -6,7 +6,34 @@ A widget for creating a donut thump shape easily on Sliders.
 
 ### Import the package
 
-To use this package, [add round_thumb_shape as a dependency](https://pub.dartlang.org/packages/) in your pubspec.yaml
+To use this package, [follow the instructions here](https://pub.dev/packages/donut_thumb_shape#-installing-tab-).
+Then use it with SliderTheme, for example, the following code provides the following output:
+
+```
+SliderTheme(
+          data: SliderThemeData(
+              overlayColor: Colors.transparent,
+              thumbColor: Colors.white,
+              activeTrackColor: Color.fromRGBO(102, 0, 78, 1),
+              inactiveTrackColor: Colors.white,
+              tickMarkShape: SliderTickMarkShape.noTickMark,
+              thumbShape: DonutThumbShape(
+                  insideCircleRadius: 4,
+                  outsideCircleRadius: 9,
+                  outsideCircleColor: Colors.pinkAccent,
+                  insideCircleColor: Colors.lightBlueAccent)),
+          child: Slider(
+            onChanged: (v) { },
+            value: 2,
+            min: 0,
+            max: 10,
+          ),
+        ),
+```
+
+![](https://github.com/paulo9mv/donut_thumb_shape/blob/master/rosa_azul.png?raw=true)
+
+More examples [here](https://pub.dev/packages/donut_thumb_shape#-example-tab-)
 
 ### Use the package
 

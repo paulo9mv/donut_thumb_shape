@@ -31,7 +31,7 @@ SliderTheme(
         ),
 ```
 
-![](https://github.com/paulo9mv/donut_thumb_shape/blob/master/rosa_azul.png?raw=true)
+![](https://github.com/paulo9mv/donut_thumb_shape/blob/master/assets/rosa_azul.png?raw=true)
 
 More examples [here](https://pub.dev/packages/donut_thumb_shape#-example-tab-)
 
